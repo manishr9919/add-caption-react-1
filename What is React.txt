@@ -1,0 +1,32 @@
+1. What is React?
+React is an open-source JavaScript library developed by Facebook for building user interfaces or UI components, particularly for single-page applications where UI updates are frequent. It allows developers to create reusable UI components and manage the state of an application efficiently.
+2.Who made React?
+React was developed by Facebook. It was created by Jordan Walke, a software engineer at Facebook, and was initially released as an open-source project in 2013. React was later maintained and developed by Facebook along with contributions from the community of developers.
+3.What is Babel?
+Babel is a popular JavaScript compiler that allows developers to write code using the latest ECMAScript (JavaScript) syntax and features, and then transforms that code into a version of JavaScript that is compatible with a wide range of browsers and environments. The primary purpose of Babel is to enable developers to use modern JavaScript features while ensuring cross-browser compatibility.
+4.How does Babel convert html code in React into valid code?
+Babel primarily focuses on transforming JavaScript code, including JSX (JavaScript XML), which is a syntax extension often used with React to describe the structure of user interfaces. HTML code in React applications is typically written using JSX, and Babel plays a role in transforming JSX into standard JavaScript code that can be understood and executed by browsers.
+Example: -
+JSX code 
+Const element=<div>Hello, World!</div>;
+/// Equivalent JavaScript after Babel transformation
+Const element =Reac.createElement('div', null, 'Hello, World!');
+5. What is ReactDOM used for? Write an example?
+      ReactDOM is a package in React that provides the DOM-specific methods that are used to render React elements to the web page. It acts as the bridge between React and the browser's DOM (Document Object Model). The most commonly used method provided by ReactDOM is ReactDOM.render().
+6.  What are the packages that you need to import for react to work with?
+       When working with React, you typically need to import several packages to set up        your development environment and build React applications. Here are some of the key packages commonly used in a React project:
+7.  How do you add react to a web application?
+To add React to a web application, you need to follow these general steps. The process assumes that you have an existing web application or are starting a new one.
+1 . Create a New React App or Add React to an Existing Project:
+* Create a New React App: You can use a tool called Create React App to quickly set up a new React project with a predefined folder structure and build configuration.
+npx create-react-app my-react-app
+cd my-react-app
+Add React to an Existing Project: If you have an existing project, you can add React by installing the necessary packages using npm or yarn.
+npm install react react-dom
+# or
+yarn add react react-dom
+
+
+
+
+
